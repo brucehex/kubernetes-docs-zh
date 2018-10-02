@@ -1,6 +1,6 @@
 # K8SMeetup 翻译流程与翻译校稿规范
 
- website上游仓库自2018年7月9日从Jeklly成功迁移至hugo。hugo提供了完善的中文化支持,目前官网 kubernetes.io已可以轻松切换中文站点,欢迎参与K8SMeetup的翻译，您的贡献会以最快的速度呈现在官网。
+ `website` 上游仓库在 2018年7月9日，从 `Jeklly` 成功迁移至 `hugo`，且提供了完善的中文化支持，目前官网 `kubernetes.io` 已经可以轻松切换中文站点。
 
 **翻译流程: 讲解译者如何参与 `Kubernetes` 中文化文档翻译的过程。**
 
@@ -8,7 +8,7 @@
 
 **注：所有的翻译文件，都要保留原文，一段英文，一段中文，且中英文间隔不要太长，以方便大家 `review`，保证翻译质量。**
 
-`K8SMeetup` 翻译社区 [DashBoard](https://kubernetes.io/chart)，附每周的翻译[文章汇总](contribution-cn.md)。建议翻译之前，了解一下[上游贡献文档](https://docs.google.com/document/d/1qjJGRw3EyV9-RR50LUAOABrFPm4cOotGcXxgz3DA8Uw/edit)。
+`K8SMeetup` 翻译社区 [DashBoard](https://k8smeetup.github.io/chart)，附每周的翻译[文章汇总](contribution-cn.md)。建议翻译之前，了解一下[上游贡献文档](https://docs.google.com/document/d/1qjJGRw3EyV9-RR50LUAOABrFPm4cOotGcXxgz3DA8Uw/edit)。
 
 
 **后期计划**: 考虑到英文版本的文档已经可以多版本预览，后期我们也会推出多版本的翻译方法，考虑到社区当前的实际情况，还是维持每周一更的态势，重点是把最新版本的`Kubernetes`资料译好,后面再扩展多版本的翻译分支。
@@ -92,7 +92,7 @@ git push
 
 **kubernetes.io 文档的构成**
 
-Kubernetes 文档由若干 `md` 和 `html` 文档构成,翻译即是将原始 `md` 和 `html`文件中需要翻译的文字用 tag 注释包起来，然后再拷贝一份进行翻译。原始英文用符号 `<!-- -->` 注释掉，每一段英文，对应一段中文，方便其他译者 review，如下例：
+Kubernetes 文档由若干 `md` 和 `html` 文档构成，翻译即是将原始 `md` 和 `html`文件中需要翻译的文字用 tag 注释包起来，然后再拷贝一份进行翻译。原始英文用符号 `<!-- -->` 注释掉，每一段英文，对应一段中文，方便其他译者 review，如下例：
 
 ```
 <!--
@@ -146,10 +146,10 @@ Kubernetes 文档由若干 `md` 和 `html` 文档构成,翻译即是将原始 `m
 
 ## 三、版本控制与翻译文件更新
 
-每周会同步文档任务列表，译者的更新步骤如下：
+每周会同步文档任务列表，译者的更新步骤如下：
 
 - 更新源码库
-- 比较 `cn/en` 文件夹对应的同名文件，找出新增的差异化英文
+- 比较 `cn/en` 文件夹对应的同名文件，找出新增的差异化英文
 - 将新的差异化英文更新至cn目前下的同名文件文件
 - 提交新的PR
 
