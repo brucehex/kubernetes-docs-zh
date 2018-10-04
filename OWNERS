@@ -5,6 +5,7 @@ reviewers:
 - stewart-yu
 - xiangpengzhao
 - zhangxiaoyu-zidif
+- markthink
 
 # Approvers have all the ability of reviewers but their /approve makes
 # auto-merge happen if a /lgtm exists, or vice versa, or they can do both
